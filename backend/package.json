@@ -4,7 +4,9 @@
   "private": true,
   "description": "Express + TypeScript API powering the Planet AI assistant (Google Gemini).",
   "main": "dist/server.js",
-  "engines": { "node": ">=18.17" },
+  "engines": {
+    "node": ">=18.17"
+  },
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "build": "tsc -p tsconfig.json",
@@ -23,7 +25,7 @@
   "devDependencies": {
     "@types/cors": "^2.8.17",
     "@types/express": "^4.17.21",
-    "@types/node": "^20.14.11",
+    "@types/node": "^20.19.43",
     "rimraf": "^5.0.9",
     "tsx": "^4.16.2",
     "typescript": "^5.5.4"
