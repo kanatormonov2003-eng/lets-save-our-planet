@@ -1,0 +1,26 @@
+{
+  "name": "lets-save-our-planet-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "React + TypeScript + Vite client for Let's Save Our Planet.",
+  "engines": { "node": ">=18.17" },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 4173",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.2"
+  }
+}

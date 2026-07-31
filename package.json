@@ -1,0 +1,19 @@
+{
+  "name": "lets-save-our-planet",
+  "version": "1.0.0",
+  "private": true,
+  "description": "International environmental awareness site with a built-in Gemini-powered AI assistant.",
+  "workspaces": ["backend", "frontend"],
+  "scripts": {
+    "dev:backend": "npm run dev --workspace backend",
+    "dev:frontend": "npm run dev --workspace frontend",
+    "build": "npm run build --workspace backend && npm run build --workspace frontend",
+    "build:backend": "npm run build --workspace backend",
+    "build:frontend": "npm run build --workspace frontend",
+    "typecheck": "npm run typecheck --workspace backend && npm run typecheck --workspace frontend",
+    "start": "npm run start --workspace backend",
+    "preview": "npm run preview --workspace frontend"
+  },
+  "engines": { "node": ">=18.17" },
+  "license": "MIT"
+}
